@@ -24,7 +24,7 @@
 	$effect(() => {
 		const timeInterval = 100; // 100 milliseconds
 
-		let timer: NodeJS.Timeout | null = null;
+		let timer: number | null = null;
 
 		if (isRunning) {
 			timer = setInterval(() => {
@@ -47,7 +47,7 @@
 	});
 </script>
 
-<a href="/7guis/timer/v2">V2</a>
+<a href="/timer/v2">V2</a>
 
 <div
 	class="flex w-fit flex-col gap-2 rounded-lg bg-gray-200 p-4 shadow-lg transition-all duration-300 ease-in-out"

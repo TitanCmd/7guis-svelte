@@ -1,7 +1,7 @@
 <script lang="ts">
 	let elapsed = $state(0);
 	let duration = $state(5);
-	let interval: NodeJS.Timeout;
+	let interval: number;
 
 	function start() {
 		interval = setInterval(() => {
@@ -25,7 +25,7 @@
 	});
 </script>
 
-<a href="/7guis/timer">V1</a>
+<a href="/timer">V1</a>
 
 <div>
 	<div>
