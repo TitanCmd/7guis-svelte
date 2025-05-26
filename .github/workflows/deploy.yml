@@ -19,7 +19,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
         with:
-          cache: pnpm
+          # Use the cache to speed up dependency installation
+          cache: 'pnpm'
+          # cache-dependency-path: 'pnpm-lock.yaml'
 
       - name: build
         env:
