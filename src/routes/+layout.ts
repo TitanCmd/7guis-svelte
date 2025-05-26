@@ -1,4 +1,3 @@
-import { error } from '@sveltejs/kit';
 import type { LayoutLoad } from './$types';
 import { challenges } from './data';
 
