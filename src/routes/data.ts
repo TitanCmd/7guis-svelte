@@ -8,7 +8,7 @@ interface Challenges {
 export const challenges: Challenges[] = [
 	{
 		title: 'Counter',
-		href: `counter`,
+		href: `/counter`,
 		img: 'https://eugenkiss.github.io/7guis/static/counter.9cd92091.png',
 		description: `Challenge: Understanding the basic ideas of a language/toolkit.
 			\n
@@ -18,7 +18,7 @@ export const challenges: Challenges[] = [
 	},
 	{
 		title: 'Temperature Converter',
-		href: `temperature-converter`,
+		href: `/temperature-converter`,
 		img: 'https://eugenkiss.github.io/7guis/static/tempconv.de9aff1f.png',
 		description: `Challenges: bidirectional data flow, user-provided text input.
 			\n
@@ -30,7 +30,7 @@ Temperature Converter is inspired by the Celsius/Fahrenheit converter from the b
 	},
 	{
 		title: 'Flight Booker',
-		href: `flight-booker`,
+		href: `/flight-booker`,
 		img: 'https://eugenkiss.github.io/7guis/static/bookflight.a5434663.png',
 		description: `Challenge: Constraints.
 \n
@@ -43,7 +43,7 @@ Flight Booker is directly inspired by the Flight Booking Java example in Sodium 
 	},
 	{
 		title: 'Timer',
-		href: `timer`,
+		href: `/timer`,
 		img: 'https://eugenkiss.github.io/7guis/static/timer.ed46b6b4.png',
 		description: `Challenges: concurrency, competing user/signal interactions, responsiveness.
 
@@ -56,7 +56,7 @@ Timer is directly inspired by the timer example in the paper Crossing State Line
 	},
 	{
 		title: 'CRUD',
-		href: `crud`,
+		href: `/crud`,
 		img: 'https://eugenkiss.github.io/7guis/static/crud.515ce94b.png',
 		description: `Challenges: separating the domain and presentation logic, managing mutation, building a non-trivial layout.
 
@@ -69,7 +69,7 @@ CRUD is directly inspired by the crud example in the blog post FRP - Three princ
 	},
 	{
 		title: 'Circle Drawer',
-		href: `circle-drawer`,
+		href: `/circle-drawer`,
 		img: 'https://eugenkiss.github.io/7guis/static/circledraw.235dfd8b.png',
 		description: `Challenges: undo/redo, custom drawing, dialog control*.
 
@@ -82,7 +82,7 @@ Circle Drawer’s goal is, among other things, to test how good the common chall
 	},
 	{
 		title: 'Cells',
-		href: `cells`,
+		href: `/cells`,
 		img: 'https://eugenkiss.github.io/7guis/static/cells.9544a72f.png',
 		description: `Challenges: change propagation, widget customization, implementing a more authentic/involved GUI application.
 
