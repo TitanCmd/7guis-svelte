@@ -18,7 +18,6 @@
 			const { operation, cells } = parseFormula(value);
 
 			const values = cells.map(({ row, col }) => {
-				console.log(row, col);
 				const value = data[row][col].value;
 				if (value.startsWith('=')) {
 					return +parseValue(value);
@@ -103,6 +102,7 @@
 						}}
 					>
 						{#if editing}
+							<!-- svelte-ignore a11y_autofocus -->
 							<input
 								class="h-full w-full border-none bg-gray-600 outline-none"
 								type="text"
