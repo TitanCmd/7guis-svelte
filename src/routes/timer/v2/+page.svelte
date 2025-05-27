@@ -26,7 +26,7 @@
 	});
 </script>
 
-<a href="{base}/timer" }>V1</a>
+<a href="{base}/timer">V1</a>
 
 <div>
 	<div>
