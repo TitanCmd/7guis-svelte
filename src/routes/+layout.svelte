@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { LayoutProps } from './$types';
+	import { base } from '$app/paths';
 	import '../app.css';
 
 	let summaryOpen = $state(false);
@@ -13,7 +14,7 @@
 			{#snippet listItem(href: string, title: string)}
 				<li>
 					<a
-						{href}
+						href={base + href}
 						class="block w-full rounded p-2 text-slate-800 transition-colors hover:bg-slate-600 hover:text-slate-200"
 					>
 						{title}

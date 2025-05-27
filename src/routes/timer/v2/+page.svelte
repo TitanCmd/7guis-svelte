@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	let elapsed = $state(0);
 	let duration = $state(5);
 	let interval: number;
@@ -25,7 +26,7 @@
 	});
 </script>
 
-<a href="/timer">V1</a>
+<a href="{base}/timer" }>V1</a>
 
 <div>
 	<div>

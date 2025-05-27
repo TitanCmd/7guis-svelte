@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	// `e` in the challenge. In milliseconds
 	let elapsedTime = $state(0);
 
@@ -47,7 +48,7 @@
 	});
 </script>
 
-<a href="/timer/v2">V2</a>
+<a href="{base}/timer/V2}">V2</a>
 
 <div
 	class="flex w-fit flex-col gap-2 rounded-lg bg-gray-200 p-4 shadow-lg transition-all duration-300 ease-in-out"
